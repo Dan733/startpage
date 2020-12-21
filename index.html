@@ -14,7 +14,7 @@
             <input id="search-bar" type="text" autofocus placeholder="" name="q" alt="search">
             <input id="submit-button" type="submit" value="Search">
         </form>
-        <section id="link-section" unselectable="off" onselectstart="return true;" onmousedown="return true;">
+        <section id="link-section" onselectstart="return true;" onmousedown="return true;">
          
             <div class="link-box-wrapper" v-for="item in shortcuts" v-bind:link="item" v-bind:key="item.id">
                 <a :href="item.target">
